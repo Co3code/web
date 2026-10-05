@@ -413,7 +413,7 @@ const PostingTips = () => {
 };
 
 const CTA = () => {
-  const APK_URL = "https://github.com/Co3code/capstone2/releases/download/v1.6.0/AIFoundIT.apk";
+  const APK_URL = "/download";
   return (
     <section id="download" className="py-40 bg-[#070709] border-t border-white/[0.02] relative overflow-hidden">
       {/* Background glow orb */}
