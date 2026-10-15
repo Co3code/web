@@ -1,5 +1,5 @@
 export async function onRequest(context) {
-  const GITHUB_URL = "https://github.com/Co3code/capstone2/releases/download/v2.1.0/aifoundit.apk";
+  const GITHUB_URL = "https://github.com/Co3code/capstone2/releases/download/v2.1.0/aifoundit.apk"; 
 
   const response = await fetch(GITHUB_URL, {
     headers: { "User-Agent": "Cloudflare-Pages-Function" },
